@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#menu {
+    @apply flex flex-col w-full gap-6 mt-10;
+}
+#menu li{
+    @apply w-full;
+}
+#menu li a{
+    @apply flex items-center justify-start w-full border border-transparent rounded-lg bg-rose-200 hover:border-red-500 hover:bg-white hover:font-bold ;
+}
+#menu li a .icono{
+    @apply w-2/12 p-4 text-white bg-red-600 rounded-l-lg;
+}
+#menu li a .texto{
+    @apply flex-1 p-4 text-lg font-bold text-gray-700;
+}
+
+
+#perfil {
+    @apply flex flex-col w-full  gap-2 mt-5;
+}
+#perfil li{
+    @apply w-full;
+}
+#perfil li a{
+    @apply flex items-center justify-end w-full border border-transparent rounded-lg bg-rose-200 hover:border-red-500 hover:bg-white hover:font-bold ;
+}
+#perfil li a .icono{
+    @apply w-2/12 p-4 text-white bg-red-600 rounded-l-lg;
+}
+#perfil li a .texto{
+    @apply flex-1 p-4 text-lg font-bold text-gray-700;
+}
+  
